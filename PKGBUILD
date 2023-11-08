@@ -6,7 +6,7 @@ arch=('any')
 url="URL_DEL_PROYECTO"
 license=('MIT')
 depends=('python' 'tk' 'geopy' 'timezonefinder' 'requests' 'Pillow')
-source=("${pkgname}-${pkgver}.tar.gz::https://URL_DEL_PROYECTO/${pkgname}-${pkgver}.tar.gz")
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/adrian-agp/${pkgname}-${pkgver}.tar.gz")
 sha256sums=('SHA256_DEL_ARCHIVO')
  
 package() {
